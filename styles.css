@@ -1,2 +1,16 @@
-
 /* Your CSS Code here. */
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+   
+}
+
+.element{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin:2%;
+}
